@@ -16,6 +16,7 @@
     "jp.keijiro.klak.motion": "1.0.1",
     "jp.keijiro.test-assets": "1.0.1",
     "com.unity.modules.jsonserialize": "1.0.0",
-    "com.unity.modules.nvidia": "1.0.0"
+    "com.unity.modules.nvidia": "1.0.0",
+    "com.unity.modules.terrain": "1.0.0"
   }
 }

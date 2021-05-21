@@ -26,18 +26,18 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
-      "version": "12.0.0",
-      "depth": 1,
-      "source": "builtin",
+      "version": "file:com.unity.render-pipelines.core",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.physics": "1.0.0"
       }
     },
     "com.unity.render-pipelines.high-definition": {
-      "version": "12.0.0",
+      "version": "file:com.unity.render-pipelines.high-definition",
       "depth": 0,
-      "source": "builtin",
+      "source": "embedded",
       "dependencies": {
         "com.unity.modules.video": "1.0.0",
         "com.unity.modules.animation": "1.0.0",
@@ -49,24 +49,24 @@
       }
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "12.0.0",
-      "depth": 1,
-      "source": "builtin",
+      "version": "file:com.unity.render-pipelines.high-definition-config",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "com.unity.render-pipelines.core": "12.0.0"
       }
     },
     "com.unity.searcher": {
       "version": "4.3.2",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.shadergraph": {
-      "version": "12.0.0",
-      "depth": 1,
-      "source": "builtin",
+      "version": "file:com.unity.shadergraph",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "com.unity.render-pipelines.core": "12.0.0",
         "com.unity.searcher": "4.3.1"
@@ -86,7 +86,7 @@
     },
     "com.unity.ugui": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
@@ -94,9 +94,9 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "12.0.0",
-      "depth": 1,
-      "source": "builtin",
+      "version": "file:com.unity.visualeffectgraph",
+      "depth": 0,
+      "source": "embedded",
       "dependencies": {
         "com.unity.shadergraph": "12.0.0",
         "com.unity.render-pipelines.core": "12.0.0"
@@ -154,7 +154,7 @@
     },
     "com.unity.modules.imgui": {
       "version": "1.0.0",
-      "depth": 3,
+      "depth": 2,
       "source": "builtin",
       "dependencies": {}
     },
@@ -178,7 +178,13 @@
     },
     "com.unity.modules.physics": {
       "version": "1.0.0",
-      "depth": 2,
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.modules.terrain": {
+      "version": "1.0.0",
+      "depth": 0,
       "source": "builtin",
       "dependencies": {}
     },
